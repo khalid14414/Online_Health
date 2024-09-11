@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="/asset/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Online Health</title>
 </head>
+
 <body>
     <div class="top-nav">
         <div>
-            <i class="fa-solid fa-phone">+233 557424675</i>
-            <i class="fa-solid fa-location-dot">Accra-Ablekuma, FS876 Bookshelf St</i>
-            <i class="fa-solid fa-clock">Mon to Sat 9:00am to 18:00pm</i>
+            <i class="fa-solid fa-phone">&nbsp +233 557424675</i>
+            <i class="fa-solid fa-location-dot"> Accra-Ablekuma, FS876 Bookshelf St</i>
+            <i class="fa-solid fa-clock"> Mon to Sat 9:00am to 18:00pm</i>
         </div>
-        
+
         <div>
-            <a href=""><i class="fa-brands fa-facebook-f "></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-f  pr-[10px]"></i></a>
+            <a href=""><i class="fa-brands fa-instagram pr-[10px]"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp pr-[10px]"></i></a>
         </div>
     </div>
     <nav>
@@ -28,15 +39,51 @@
         </div>
         <div class="nav-items">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>News</li>
-                <li>Contact</li>
-                <button>APPOINTMENT</button>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Contact</a></li>
+                <button
+                    class="nav-btn ml-[25px] pt-[12px] px-[30px] pb-[10px] border-solid border-2 border-[#13a2b7] rounded-[5px] tracking-[2px]">APPOINTMENT</button>
             </ul>
         </div>
     </nav>
-    
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <span>Eiusmod tempor incididunt</span>
+                <h2>Take the world's best quality Treadment</h2>
+                <button class="hero-btn">CONTACT US</button>
+            </div>
+            <div></div>
+        </div>
+    </section>
+    <section class="consutantion">
+        <div class="cons">
+            <div class="row">
+                <div class="row-one">
+                    <div class="tittle">
+                        <span>REQUEST FOR YOUR</span>
+                        <h2>Consultation</h2>
+                        <form action="">
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Email">
+                            <input type="date" name="Date" id="" placeholder="Date">
+                            <select name="Type of Services" id="">
+                                <option value="" disabled selected>Type of Services</option>
+                                <option value="">HeadAch</option>
+                                <option value="">Love</option>
+                                <option value="">Heart</option>
+                            </select>
+                            <button>APPOINTMENT</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="row-two"></div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>

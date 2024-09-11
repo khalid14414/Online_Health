@@ -1,16 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    font-family: poppins , sans-serif;
+    font-family: poppins, sans-serif;
 }
-.top-nav{
+
+.top-nav {
     background-color: #0C5D69;
     display: flex;
     justify-content: space-around;
-    padding: 12px 0;
-    font-size: 12px;
+    padding: 16px 0;
+    font-size: 13px;
 }
+
+.top-fa {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    color: #FFFFFF;
+}
+
+.top-fa i{
+    margin-right: 10px;
+}
+
 
 
 
@@ -21,20 +34,23 @@ nav {
     padding: 30px 0;
 }
 
-nav li{
+nav li {
     display: inline;
     padding-left: 25px;
 }
-nav a{
+
+nav h2 {
     font-weight: 500;
     font-size: 15px;
     padding: 4px 0;
     color: #111111;
 
 }
-.logo a {
+
+.logo h2 {
     text-align: center;
     font-weight: 900;
+    font-size: 30px;
 }
 
 
@@ -46,18 +62,19 @@ nav a{
     height: 90vh;
 }
 
-.container{
+.container {
     display: flex;
     margin: 0 69px;
     padding: 0 15px;
     padding: 145px 0 215px;
 }
 
-.hero-text{
+.hero-text {
     padding: 0 15px;
     width: 50%;
 }
-.hero-text h2{
+
+.hero-text h2 {
     margin: 10px 0 35px;
     font-size: 48px;
     color: #111111;
@@ -65,7 +82,7 @@ nav a{
     line-height: 60px;
 }
 
-span{
+span {
     color: #13a2b7;
     font-size: 15px;
     font-weight: 500;
@@ -73,7 +90,7 @@ span{
 
 }
 
-.hero-btn{
+.hero-btn {
     padding: 12px 30px 10px;
     border: 2px solid #13A2B7;
     background-color: #13A2B7;
@@ -82,3 +99,74 @@ span{
     letter-spacing: 2;
     font-weight: 600;
 }
+
+/* appointment */
+.row {
+    display: flex;
+}
+
+.row-two {
+    display: flex;
+    padding: 110px 0;
+    margin: 0 10px;
+   
+}
+.tittle h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 8px;
+    color: #111111;
+
+}
+
+.tittle {
+    /* background-color: aqua; */
+    padding: 40px 20px;
+    z-index: 1;
+    position: relative;
+    top: -80px;
+    background-color: #FFFFFF;
+    width: 30%;
+    text-align: center;
+}
+
+.consultation {
+    margin: 0 69px;
+    padding: 0 15px;
+}
+
+input {
+    margin: 0 0 20px;
+    border: 1px solid #13A2B7;
+    background-color: #FFFFFF;
+    padding: 1px 1px 1px 20px;
+    height: 46px;
+    border-radius: 5px;
+    width: 216px;
+}
+select {
+    margin: 0 0 20px;
+    border: 1px solid #13A2B7;
+    background-color: #FFFFFF;
+    padding: 1px 1px 1px 20px;
+    height: 46px;
+    border-radius: 5px;
+    width: 216px;
+}
+.consult-btn{
+    margin: 0 0 20px;
+    border: 1px solid #13A2B7;
+    background-color: #FFFFFF;
+    padding: 1px 1px 1px 20px;
+    height: 46px;
+    border-radius: 5px;
+    width: 216px;
+    background-color: #13a2b7;
+}
+
+.consultation-text h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 8px;
+    line-height: 47px;
+} 

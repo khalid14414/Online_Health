@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
     font-family: poppins, sans-serif;
 }
 
@@ -20,7 +20,7 @@
     color: #FFFFFF;
 }
 
-.top-fa i{
+.top-fa i {
     margin-right: 10px;
 }
 
@@ -55,7 +55,7 @@ nav h2 {
 
 
 .hero {
-    background-image: url(../asset/pic4.jpg);
+    background-image: url(../asset/hero.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -103,69 +103,249 @@ span {
 /* appointment */
 .row {
     display: flex;
+
+
 }
 
 .row-two {
     display: flex;
-    padding: 110px 0;
+    padding: 110px 20px;
     margin: 0 10px;
-   
+
 }
-.tittle h2{
+
+.tittle h2 {
     font-size: 36px;
     font-weight: 700;
     margin-top: 8px;
     color: #111111;
+    margin-bottom: 30px;
 
 }
 
 .tittle {
     /* background-color: aqua; */
-    padding: 40px 20px;
+    padding: 40px 50px;
     z-index: 1;
     position: relative;
     top: -80px;
     background-color: #FFFFFF;
-    /* text-align: center; */
+    text-align: center;
+    box-shadow: 2px 1px 4px -1px rgba(0, 0, 0, 0.59);
 }
 
 .consultation {
     margin: 0 69px;
     padding: 0 15px;
+    height: 400px;
 }
 
-input {
-    margin: 0 0 20px;
-    border: 1px solid #13A2B7;
-    background-color: #FFFFFF;
-    padding: 1px 1px 1px 20px;
-    height: 46px;
-    border-radius: 5px;
-    width: 216px;
+.consult {
+    color: #888888;
 }
-select {
+
+.form input {
+    /* margin-bottom: 3rem; */
+     padding: 2rem;
     margin: 0 0 20px;
     border: 1px solid #13A2B7;
     background-color: #FFFFFF;
     padding: 1px 1px 1px 20px;
     height: 46px;
     border-radius: 5px;
-    width: 216px;
+    width: 230px;
 }
-.consult-btn{
+
+.form select {
     margin: 0 0 20px;
     border: 1px solid #13A2B7;
     background-color: #FFFFFF;
     padding: 1px 1px 1px 20px;
     height: 46px;
     border-radius: 5px;
-    width: 216px;
+    width: 230px;
+}
+
+.consult-btn {
+    margin: 0 0 20px;
+    border: 1px solid #13A2B7;
+    background-color: #FFFFFF;
+    padding: 1px 1px 1px 20px;
+    height: 46px;
+    border-radius: 5px;
+    width: 230px;
     background-color: #13a2b7;
 }
 
-.consultation-text h2{
+.consultation-text h2 {
     font-size: 36px;
     font-weight: 700;
     margin-top: 8px;
     line-height: 47px;
-} 
+}
+
+
+.consultation-text p {
+    color: #444444;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.consultation-span {
+    letter-spacing: 2;
+    font-size: 15px;
+    color: #888888;
+}
+
+/**/
+
+/* Offer section */
+.offer {
+    /* background-color: #13A2B7; */
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 0;
+}
+
+.offer-row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.offer-list img {
+    padding: 0 110px;
+}
+.offer-list {
+    padding: 30px 0;
+}
+
+.offer-title {
+    padding: 0 10px 50px;
+}
+
+.offer-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.offer-title span {
+    font-size: 15px;
+    color: #888888;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+
+.offer-list h5 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+    font-weight: 600;
+    margin: 26px 16px;
+}
+.offer-list p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666
+}
+/* Services */
+section .services{
+    padding: 100px;
+}
+
+.services{
+    background-image: url(../asset/services.png);
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    padding: 100px 0 70px;
+    /* filter: blur(1px); */
+}
+
+.main-body{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 90%; */
+    margin: 0 auto;
+    /* justify-content: space-between; */
+}
+
+.bodycare{
+    border-radius: 20px;
+    width: 48%;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    margin: 0 10px 30px;
+    background-color: #FFFFFF;
+    padding: 45px 10px 45px 50px;
+    
+}
+
+.bodycare:hover{
+    background-color: #13a2b7;
+    color: #FFFFFF;
+
+}
+
+.bodycare img{
+    width: 100px;
+}
+
+.bodycare-img img{
+    width: 150%;
+    height: 88%;
+}
+
+.bodycare-text h5{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: normal;
+    margin-bottom: 14px;
+}
+.bodycare-text {
+    margin: 0 20px 0 30px;
+}
+.bodycare-text p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #888888;
+}
+
+.services-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px 50px;
+}
+
+.services-top h2{
+    font-weight: 700;
+    margin-top: 8px;
+    color: #FFFFFF;
+    font-size: 36px;
+}
+
+.top{
+    width: 70%;
+}
+
+.top span{
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.top-btn{
+    padding: 12px 30px 10px 30px;
+    border: 2px solid #13a2b7;
+    /* width: 30%; */
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}

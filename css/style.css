@@ -107,6 +107,10 @@ span {
 
 }
 
+.cons {
+    margin: 0 49px;
+}
+
 .row-two {
     display: flex;
     padding: 110px 20px;
@@ -137,7 +141,7 @@ span {
 .consultation {
     margin: 0 69px;
     padding: 0 15px;
-    height: 400px;
+    height: 500px;
 }
 
 .consult {
@@ -349,3 +353,49 @@ section .services{
     color: #FFFFFF;
     border-radius: 5px;
 }
+
+/* Teams */
+.team-stn{
+    padding: 110px 0 100px;
+}
+
+.team-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.team-list {
+    width: 35%;
+     text-align: center;
+}
+
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team-img{
+    /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.team-icon{
+    display: flex;
+    /* width: 80%; */
+    justify-content: center;
+}
+
+
+
+
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+  }
